@@ -4,9 +4,9 @@ const swiper = new Swiper('.slider-wrapper', {
     spaceBetween: 10,
     grabCursor: true,
 
-    autoplay: {
-        delay: 3000,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    // },
   
     // If we need pagination
     pagination: {
