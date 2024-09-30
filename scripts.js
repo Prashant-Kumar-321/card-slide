@@ -1,8 +1,10 @@
+// Initialization of Swipper  object
+
 const swiper = new Swiper('.slider-wrapper', {
-    // Optional parameters
     loop: true,
-    spaceBetween: 10,
+    spaceBetween: 10, // px
     grabCursor: true,
+    speed: 850,
 
     // autoplay: {
     //     delay: 3000,
@@ -20,11 +22,6 @@ const swiper = new Swiper('.slider-wrapper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
 
     // For responsive Slide show
     breakpoints: {
